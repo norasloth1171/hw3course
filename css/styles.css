@@ -1,0 +1,60 @@
+/*
+Error: File to import not found or unreadable: bootstrap.
+       Load paths:
+         C:/Users/student/Desktop/hw3-course/hw3-course/sass
+         c:/Program Files/Prepros/gems/gems/bourbon-4.0.2/app/assets/stylesheets
+         c:/Program Files/Prepros/gems/gems/neat-1.6.0/app/assets/stylesheets
+         c:/Program Files/Prepros/gems/gems/bitters-0.10.0/app/assets/stylesheets
+        on line 5 of C:\Users\student\Desktop\hw3-course\hw3-course\sass\styles.scss
+
+1: // Import all the variables into the main css file.
+2: @import "variables";
+3: 
+4: // I gather this file is a starting point for the project.
+5: @import "bootstrap";
+6: 
+7: @import "compass";
+8: 
+9: 
+10: // gd- prefix:
+
+Backtrace:
+C:\Users\student\Desktop\hw3-course\hw3-course\sass\styles.scss:5
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:66:in `rescue in import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:45:in `import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `map'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:157:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:396:in `run'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:62:in `process_result'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/exec/base.rb:52:in `parse'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/lib/sass/exec/base.rb:19:in `parse!'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.6/bin/sass:13:in `<top (required)>'
+c:/Program Files/Prepros/bin/gems.rb:17:in `load'
+c:/Program Files/Prepros/bin/gems.rb:17:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap.\A        Load paths:\A          C:/Users/student/Desktop/hw3-course/hw3-course/sass\A          c:/Program Files/Prepros/gems/gems/bourbon-4.0.2/app/assets/stylesheets\A          c:/Program Files/Prepros/gems/gems/neat-1.6.0/app/assets/stylesheets\A          c:/Program Files/Prepros/gems/gems/bitters-0.10.0/app/assets/stylesheets\A         on line 5 of C:\Users\student\Desktop\hw3-course\hw3-course\sass\styles.scss\A \A 1: // Import all the variables into the main css file.\A 2: @import \"variables\";\A 3: \A 4: // I gather this file is a starting point for the project.\A 5: @import \"bootstrap\";\A 6: \A 7: @import \"compass\";\A 8: \A 9: \A 10: // gd- prefix:"; }
